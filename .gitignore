@@ -1,0 +1,59 @@
+# NEXUS CUDA KILLER
+
+> Simulation portable de logique GPU et d'optimisation en Python pur.
+
+[![License](https://img.shields.io/badge/license-NEXUS--OPEN--2.0-00ff88)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.8+-00d4ff)](https://python.org)
+[![Dependencies](https://img.shields.io/badge/dependencies-zero-ff00c8)](.)  
+[![Version](https://img.shields.io/badge/version-1.0.0-c8a45c)](.)  
+
+Auteur : Aissa Mohammedi (DGK)  
+Licence : NEXUS-OPEN-2.0  
+Version : 1.0.0
+
+---
+
+## Vision du projet
+
+Ce dépôt étudie la logique GPU en Python portable.
+
+Les performances GPU ne sont pas magiques :
+- réduction des passages mémoire
+- conservation du max/sum courant
+- traitement batch des tâches indépendantes
+- calcul vectorisé
+- validation d'intégrité compacte
+- suppression des redondances
+
+---
+
+## Versions incluses
+
+- `main`: version principale (softmax online + hash + benchmark)
+- `versions/v1`: CUDA Spark Muse (7 architectures GPU + Spark + recherche vectorielle)
+- `versions/v2`: calculatrice d'instabilité (test CUDA réel + analyse multi-OS)
+- `versions/v3`: futur développement
+
+---
+
+## Démarrage rapide
+
+```bash
+git clone https://github.com/aipromotion20102017-create/nexus-cuda-killer.git
+cd nexus-cuda-killer
+python3 nexus_cuda_killer.py
+```
+
+Ouvrir : `http://localhost:8103/`
+
+---
+
+## Licence
+
+NEXUS-OPEN-2.0 - Voir LICENSE
+
+---
+
+## Auteur
+
+Aissa Mohammedi (DGK)
